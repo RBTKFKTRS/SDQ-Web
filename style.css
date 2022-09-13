@@ -1,8 +1,11 @@
 *{
     box-sizing: border-box;
 }
+
 .container{
-    margin: auto;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 1%;
     width: 800px;
     height: 950px;
@@ -46,6 +49,16 @@ body{
     margin-right: 1%;
     border: 3px solid #F44033;
     border-radius: 10px;
+    background-color: white;
+    font-size: 20px;
+}
+
+.input::placeholder{
+    color: black;
+}
+
+.inputdoble::placeholder{
+    color: black;
 }
 
 .inputdoble{
@@ -58,6 +71,8 @@ body{
     margin-right: 1%;
     border: 3px solid #F44033;
     border-radius: 10px;
+    background-color: white;
+    font-size: 20px;
 }
 
 .select{
@@ -72,6 +87,9 @@ body{
     margin-right: 1%;
     border: 3px solid #F44033;
     border-radius: 10px;
+    background-color: white;
+    font-size: 20px;
+    color: black;
 }
 
 label{
@@ -96,6 +114,7 @@ button{
     box-shadow: 0 8px 16px 0 rgba( 0, 0, 0, 0.37 )
 }
 button:hover{
+    cursor: pointer;
     box-shadow: 0 10px 18px 0 rgba( 0, 0, 0, 0.37 )
 }
 
