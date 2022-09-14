@@ -13,17 +13,24 @@
 <body>
     <div class="container">
         <div class="card">
-            <h2>Practicas </h2>
-            <h2>Practicas</h2>
+            <button onclick="myFunction()">Toggle dark mode</button>
+            <script>
+                function myFunction() {
+                   var element = document.body;
+                   element.classList.toggle("dark-mode");
+                }
+                </script>
+            <!-- <img class="fotoperfil" src="CV/images/fotoperfil.jpg"> -->
+            <h2> -- Practicas -- </h2>
             <br>
+            <div class="btn-container">
+                <a class="btn" href="Multimedia/index.html">Multimedia</a>
+            </div>
             <div class="btn-container">
                 <a class="btn" href="CV/index.html">Curriculum Vitae</a>
             </div>
             <div class="btn-container">
                 <a class="btn" href="Formulario/index.html">Formulario</a>
-            </div>
-            <div class="btn-container">
-                <a class="btn" href="#">Multimedia</a>
             </div>
         </div>
     </div>

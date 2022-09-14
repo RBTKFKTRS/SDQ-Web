@@ -5,6 +5,7 @@
     padding: 0px;
     font-family: 'Rubik', sans-serif;
 }
+
 body{
     width: 100%;
     /*background-image: linear-gradient(10deg, #800 45%, #f10f80);*/
@@ -18,20 +19,28 @@ body{
     padding: 15px;
     min-height: 200px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-color: wheat;
+    background-color: darkslategrey;
     border-radius: 10px;
     text-align: center;
 }
-.card:hover{
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+.btn:hover{
     cursor: pointer;
-    background-color: wheat;
+    background-color: #8ec5fc;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
+
 .container{
     width: 100%;
 }
+
 .btn{
-    float: left;
+    display: block;
     margin: 20px;
     width: auto;
     height: 15px;
@@ -42,4 +51,8 @@ body{
     text-shadow: 1px 1px #800;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.fotoperfil{
+    border-radius: 100%;
 }
