@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Rubik:wght@500&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="container">
+        <form class="cformulario">
+            <img class="logo" src="https://sdq.com.do/img/logo-sdq-training-center-blanco.png">
+            <h1 class="titulo">Cotiza tu Curso Ahora!</h1>
+            <div class="campodoble">
+                <div>
+                    <input class="inputdoble" type="text" name="nombre" placeholder="Nombre" required>
+                </div>
+                <div>
+                    <input class="inputdoble"  type="text" name="apellido" placeholder="Apellido" required>
+                </div>
+            </div>
+            <div class="campo">
+                <div>
+                    <select class="select" required>
+                        <option value>Ciudad</option>
+                        <option value="Azua">Azua</option>
+                        <option value="Baní ">Baní </option>
+                        <option value="Barahona">Barahona</option>
+                        <option value="Bonao">Bonao</option>
+                        <option value="Cotuí">Cotuí</option>
+                        <option value="Dajabón">Dajabón</option>
+                        <option value="Distrito Nacional">Distrito Nacional</option>
+                        <option value="El Seibo">El Seibo</option>
+                        <option value="Elias Piña">Elias Piña</option>
+                        <option value="Hato Mayor">Hato Mayor</option>
+                        <option value="Higüey">Higüey</option>
+                        <option value="Jimaní">Jimaní</option>
+                        <option value="La Romana">La Romana</option>
+                        <option value="La Vega">La Vega</option>
+                        <option value="Mao">Mao</option>
+                        <option value="Moca">Moca</option>
+                        <option value="Monte Cristi">Monte Cristi</option>
+                        <option value="Monte Plata">Monte Plata</option>
+                        <option value="Nagua">Nagua</option>
+                        <option value="Neiba">Neiba</option>
+                        <option value="Ocoa">Ocoa</option>
+                        <option value="Pedernales">Pedernales</option>
+                        <option value="Puerto Plata">Puerto Plata</option>
+                        <option value="Sabaneta">Sabaneta</option>
+                        <option value="Salcedo">Salcedo</option>
+                        <option value="Samaná ">Samaná </option>
+                        <option value="San Cristóbal">San Cristóbal</option>
+                        <option value="San Fracisco de Macoris">San Fracisco de Macoris</option>
+                        <option value="San Juan de la Maguana">San Juan de la Maguana</option>
+                        <option value="San Pedro de Macoris">San Pedro de Macoris</option>
+                        <option value="Santiago">Santiago</option>
+                        <option value="Santo Domingo Este">Santo Domingo Este</option>
+                        <option value="Santo Domingo Norte">Santo Domingo Norte</option>
+                        <option value="Santo Domingo Oeste">Santo Domingo Oeste</option>
+                    </select>
+                </div>
+            </div>
+            <div class="campo">
+                <div>
+                    <input class="input" placeholder="Fecha de Nacimiento" type="text" onfocus="(this.type='date')" required>
+                </div>
+            </div>
+            <div class="campo">
+                <div>
+                    <input class="input" type="text" name="email" placeholder="Dirección Email" required>
+                </div>
+            </div>
+            <div class="campodoble">
+                <div>
+                    <input class="inputdoble" type="text" name="telefono" placeholder="Teléfono">
+                </div>
+                <div>
+                    <input  class="inputdoble" type="text" name="celular" placeholder="Celular" required>
+                </div>
+            </div>    
+            <div class="campo">
+                <div>
+                    <select class="select" required>
+                        <option value>Curso de Interes</option>
+                        <option value="HTML5 y CSS3">HTML5 y CSS3</option>
+                        <option value="PHP y MySQL">PHP y MySQL</option>
+                        <option value="Javascript con JQuery">Javascript con JQuery</option>
+                        <option value="Desarrollo de Apps de Android">Desarrollo de Apps de Android</option>
+                        <option value="Java">Java</option>
+                        <option value="Wordpress">Wordpress</option>
+                        <option value="Python">Python</option>
+                        <option value="Photoshop">Photoshop</option>
+                        <option value="Illustrator">Illustrator</option>
+                        <option value="InDesign">InDesign</option>
+                        <option value="After Effects">After Effects</option>
+                        <option value="Premier">Premier</option>
+                        <option value="Adobe XD">Adobe XD</option>
+                        <option value="Ingeniería de Sonido">Ingeniería de Sonido</option>
+                        <option value="Masterización">Masterización</option>
+                        <option value="Fotografía">Fotografía</option>
+                        <option value="Rodaje y Edición">Rodaje y Edición</option>
+                        <option value="Guion y Narrativa">Guion y Narrativa</option>
+                        <option value="Creación de Demos">Creación de Demos</option>
+                        <option value="Ilustración Digital">Ilustración Digital</option>
+                        <option value="Sublimación">Sublimación</option>
+                        <option value="Vuelo con Drones">Vuelo con Drones</option>
+                        <option value="Escultura 3D">Escultura 3D</option>
+                        <option value="Cinema 4D">Cinema 4D</option>
+                        <option value="Maya">Maya</option>
+                        <option value="3DS Max">3DS Max</option>
+                        <option value="Revit">Revit</option>
+                        <option value="AutoCAD">AutoCAD</option>
+                    </select>
+                </div>    
+            </div>
+            <div class="campo">
+                <div>
+                    <select class="select" required>
+                        <option value>Modalidad Preferida</option>
+                        <option value="Presencial">Presencial</option>
+                        <option value="Hibrida">Hibrida</option>
+                        <option value="Online">Online</option>
+                    </select>
+                </div>
+            </div>
+            <div class="checkpolicy">
+                <label>
+                    <input required type="checkbox">
+                    Estoy de acuerdo con el almacenamiento y manejo de mis datos de acuerdo con SDQ Training Center.
+                    <a href="#">Políticas de Privacidad</a>
+                </label>
+            </div>
+            <div class="CTA">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
