@@ -4,32 +4,38 @@
     height: auto;
     padding: 0px;
     font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
 }
 
 body{
     width: 100%;
+    color: white;
     /*background-image: linear-gradient(10deg, #800 45%, #f10f80);*/
     /*background-image: radial-gradient(#800, #f10f80);*/
     /*background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4f0);*/
 }
+
 .card{
     margin: auto;
     margin-top: 10%;
+    min-width: 320px;
+    max-width: 500px;
+    height: 550px;
     width: 35%;
     padding: 15px;
     min-height: 200px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-color: darkslategrey;
-    border-radius: 10px;
     text-align: center;
+    background-color: #2b2b2b;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .dark-mode {
-    background-color: black;
+    background: #292c35;
     color: white;
   }
 
-.btn:hover{
+.btn-container:hover{
     cursor: pointer;
     background-color: #8ec5fc;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
@@ -39,20 +45,63 @@ body{
     width: 100%;
 }
 
-.btn{
+.btn-container{
     display: block;
+    padding-top: 10px;
     margin: 20px;
-    width: auto;
-    height: 15px;
-    padding: 10px;
-    color: white;
+    height: 50px;
     background-color: #8ec5fc;
     text-decoration: none;
-    text-shadow: 1px 1px #800;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+.btn{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
 .fotoperfil{
     border-radius: 100%;
+}
+
+.label{
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: 5px;
+    height: 25px;
+    width: 50px;
+}
+.ball{
+    position: absolute;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 21px;
+    height: 22px;
+    width: 22px;
+    transition: transform 0.3s ease;
+}
+
+.fa-moon{
+    color: white;
+}
+
+.fa-sun{
+    color: white;
+}
+
+.checkbox:checked + .label .ball{
+    transform: translateX(-24px);
+}
+
+.checkbox{
+    display: none;
+}
+
+.fotoperfil{
+    border-radius: 100px;
 }

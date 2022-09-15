@@ -1,11 +1,15 @@
 *{
     box-sizing: border-box;
-    background-color: #2F2D2A;
+    background-color: black;
 }
 
-body{
-    margin: 0%;
-    max-width: 900px;
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 1135px;
+    background-color: #2F2D2A;
 }
 
 .imagen{

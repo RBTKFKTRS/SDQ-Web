@@ -9,18 +9,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link href="Favicon.png" rel="icon" type="image/x-icon"/>
+    <script src="https://kit.fontawesome.com/7bc0e5f569.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body id="body">
     <div class="container">
-        <div class="card">
-            <button onclick="myFunction()">Toggle dark mode</button>
+        <div class="card" id="card">
+            <div>
+                <input type="checkbox" class="checkbox" id="checkbox" onclick="myFunction()">
+                <label for="checkbox" class="label">
+                    <i class="fa-solid fa-moon"></i>
+                    <i class="fa-solid fa-sun"></i>
+                    <div class="ball"></div>
+                </label>
+            </div>
+            <img class="fotoperfil" src="CV/images/fotoperfil.jpg">
             <script>
                 function myFunction() {
                    var element = document.body;
                    element.classList.toggle("dark-mode");
                 }
                 </script>
-            <!-- <img class="fotoperfil" src="CV/images/fotoperfil.jpg"> -->
             <h2> -- Practicas -- </h2>
             <br>
             <div class="btn-container">
